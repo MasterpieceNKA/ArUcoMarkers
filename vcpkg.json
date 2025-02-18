@@ -1,0 +1,9 @@
+{
+    "name": "aruco-app",
+    "version-string": "0.0.0",
+    "dependencies": [ 
+        "argparse", 
+        "eigen3",
+        "opencv4"
+    ]
+}
