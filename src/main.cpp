@@ -68,7 +68,7 @@ int main(int argc, char* argv[]){
     }
     
     // write images to pdf
-    std::filesystem::path pdfFilePath = dataRootDir / "aruco_markers.pdf";
+    std::filesystem::path pdfFilePath = dataRootDir / "aruco_markers_updated.pdf";
     PoDoFo::PdfMemDocument document;
     PoDoFo::PdfPainter painter;
 
