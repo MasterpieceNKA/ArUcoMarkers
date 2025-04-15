@@ -27,7 +27,9 @@ if(WIN32)
     MESSAGE(STATUS "Setting OpenCV_DIR for Windows in : ${OpenCV_DIR}")
 endif()
 find_package(OpenCV REQUIRED)
+find_package(podofo CONFIG REQUIRED)
 
 add_executable(app src/main.cpp)
-target_link_libraries(app PRIVATE ${OpenCV_LIBS}) 
+target_link_libraries(app PRIVATE ${OpenCV_LIBS})
+target_link_libraries(app PRIVATE $<IF:$<TARGET_EXISTS:podofo_shared>,podofo_shared,podofo_static>)
 
