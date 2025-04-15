@@ -15,8 +15,5 @@ cd ArUcoMarkers
 
 3. Check output folder for the generated ArUco markers
 
-<object data="output/aruco_markers.pdf" type="application/pdf" width="750px" height="750px">
-    <embed src="output/aruco_markers.pdf" type="application/pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="output/aruco_markers.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+![Alt text](Sample page from ouput PDF)
+<img src="./ouput/aruco_markers.svg">
