@@ -43,8 +43,6 @@ int main(int argc, char* argv[]){
     for(int id = 0; id < 50; id++){
         cv::aruco::generateImageMarker(dictionary, id, sidePixels, markerImage, borderBits);
 
-        //char buffer[100];
-        //sprintf_s(buffer, 100, "%03d", id);
         std::ostringstream out("");
         out << "marker_4x4_"<< std::setw(3)<< std::setfill('0') << id << ".png";
 
