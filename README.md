@@ -14,6 +14,4 @@ cd ArUcoMarkers
 ```
 
 3. Check output folder for the generated ArUco markers
-
-![Alt text](Sample page from ouput PDF)
-<img src="ouput/aruco_markers.svg">
+<img src="https://raw.githubusercontent.com/MasterpieceNKA/ArUcoMarkers/refs/heads/main/output/aruco_markers.svg">
