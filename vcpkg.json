@@ -4,6 +4,7 @@
     "dependencies": [ 
         "argparse", 
         "eigen3",
-        "opencv4"
+        "opencv4",
+        "podofo"
     ]
 }
