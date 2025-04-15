@@ -1,4 +1,4 @@
 build
 output/*
 !output/README.md
-!output/aruco_markers.pdf
+!output/aruco_markers.svg
