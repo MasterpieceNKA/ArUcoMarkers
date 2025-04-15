@@ -2,3 +2,4 @@
 build
 output/*
 !output/aruco_markers.svg
+!output/aruco_markers.pdf
