@@ -1,6 +1,6 @@
 .vscode
 build
-output/*
-!output/aruco_markers.svg
-!output/aruco_markers.pdf
-!output/marker_4x4_000.png
+#output/*
+#!output/aruco_markers.svg
+#!output/aruco_markers.pdf
+#!output/marker_4x4_000.png
